@@ -30,6 +30,7 @@ namespace LastChance
         {
             bt1.Background = Brushes.LightGray;
             TotalValue -= OneTicketValue;
+
         }
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
