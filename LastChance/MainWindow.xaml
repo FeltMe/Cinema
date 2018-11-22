@@ -20,16 +20,12 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
 
-
-
         <Button Grid.Column="0" Grid.Row="0" Click="Button_Click">
-            Left
+            🢀
         </Button>
         <Button Grid.Column="2" Grid.Row="0" Click="Button_Click_1">
-            Right
+            🢂
         </Button>
-
-
 
         <Grid Grid.Row="0" Grid.Column="1">
             <Grid.RowDefinitions>
@@ -39,11 +35,16 @@
                 <ColumnDefinition/>
                 <ColumnDefinition/>
                 <ColumnDefinition/>
-
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Source="Resources/Horor.jpg" Stretch="Fill"/>
-            <Image Grid.Column="1" Source="Resources/Bam.jpg" Stretch="Fill"/>
-            <Image Grid.Column="2" Source="Resources/Веном.jpg" Stretch="Fill"/>
+            <Button Grid.Column="0" Background="White">
+                <Image Source="Resources/Horor.jpg"/>
+            </Button>
+            <Button Grid.Column="1" Background="White">
+                <Image Grid.Column="1" Source="Resources/Bam.jpg" />
+            </Button>
+            <Button Grid.Column="2" Background="White">
+                <Image Grid.Column="2" Source="Resources/Веном.jpg"/>
+            </Button>
 
         </Grid>
         <Grid Grid.Row="1" Grid.Column="1">
@@ -176,5 +177,11 @@
                 30
             </Button>
         </Grid>
+        <Grid Grid.Column="2" Grid.Row="1">
+            <Label>
+                
+            </Label>
+        </Grid>
     </Grid>
+
 </Window>

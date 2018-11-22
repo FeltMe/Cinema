@@ -40,7 +40,7 @@ namespace LastChance
 
         private void Bt30_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt30.Background = Brushes.Green;
 
         }
 
@@ -51,7 +51,7 @@ namespace LastChance
 
         private void Bt2_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt2.Background = Brushes.Green;
 
         }
 
@@ -62,7 +62,7 @@ namespace LastChance
 
         private void Bt3_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt3.Background = Brushes.Green;
 
         }
 
@@ -73,7 +73,7 @@ namespace LastChance
 
         private void Bt4_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt4.Background = Brushes.Green;
 
         }
 
@@ -84,7 +84,7 @@ namespace LastChance
 
         private void Bt5_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt5.Background = Brushes.Green;
 
         }
 
@@ -95,13 +95,13 @@ namespace LastChance
 
         private void Bt6_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt6.Background = Brushes.Green;
 
         }
 
         private void Bt7_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt7.Background = Brushes.Green;
 
         }
 
@@ -117,7 +117,7 @@ namespace LastChance
 
         private void Bt8_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt8.Background = Brushes.Green;
 
         }
 
@@ -128,7 +128,7 @@ namespace LastChance
 
         private void Bt9_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt9.Background = Brushes.Green;
 
         }
 
@@ -139,7 +139,7 @@ namespace LastChance
 
         private void Bt10_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt10.Background = Brushes.Green;
 
         }
 
@@ -150,7 +150,7 @@ namespace LastChance
 
         private void Bt11_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt11.Background = Brushes.Green;
 
         }
 
@@ -161,7 +161,7 @@ namespace LastChance
 
         private void Bt12_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt12.Background = Brushes.Green;
 
         }
 
@@ -172,7 +172,7 @@ namespace LastChance
 
         private void Bt13_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt13.Background = Brushes.Green;
 
         }
 
@@ -183,13 +183,13 @@ namespace LastChance
 
         private void Bt14_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt14.Background = Brushes.Green;
 
         }
 
         private void Bt15_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt15.Background = Brushes.Green;
 
         }
 
@@ -205,13 +205,13 @@ namespace LastChance
 
         private void Bt16_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt16.Background = Brushes.Green;
 
         }
 
         private void Bt17_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt17.Background = Brushes.Green;
 
         }
 
@@ -222,7 +222,7 @@ namespace LastChance
 
         private void Bt18_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt18.Background = Brushes.Green;
 
         }
 
@@ -233,7 +233,7 @@ namespace LastChance
 
         private void Bt19_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt19.Background = Brushes.Green;
 
         }
 
@@ -249,7 +249,7 @@ namespace LastChance
 
         private void Bt20_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt20.Background = Brushes.Green;
 
         }
 
@@ -260,13 +260,13 @@ namespace LastChance
 
         private void Bt21_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt21.Background = Brushes.Green;
 
         }
 
         private void Bt22_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt22.Background = Brushes.Green;
 
         }
 
@@ -282,13 +282,13 @@ namespace LastChance
 
         private void Bt23_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt23.Background = Brushes.Green;
 
         }
 
         private void Bt24_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt24.Background = Brushes.Green;
 
         }
 
@@ -304,13 +304,13 @@ namespace LastChance
 
         private void Bt25_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt25.Background = Brushes.Green;
 
         }
 
         private void Bt26_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt26.Background = Brushes.Green;
 
         }
 
@@ -326,13 +326,13 @@ namespace LastChance
 
         private void Bt27_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt27.Background = Brushes.Green;
 
         }
 
         private void Bt28_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt28.Background = Brushes.Green;
 
         }
 
@@ -348,7 +348,7 @@ namespace LastChance
 
         private void Bt29_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
+            bt29.Background = Brushes.Green;
 
         }
 
