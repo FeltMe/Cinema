@@ -27,7 +27,7 @@
             🢂
         </Button>
 
-        <Grid Grid.Row="0" Grid.Column="1">
+        <Grid Grid.Row="0" Grid.Column="1" x:Name="Image_grid">
             <Grid.RowDefinitions>
                 <RowDefinition/>
             </Grid.RowDefinitions>
@@ -37,13 +37,13 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Button Grid.Column="0" Background="White">
-                <Image Source="Resources/Horor.jpg"/>
+                <Image Grid.Column="0" />
             </Button>
             <Button Grid.Column="1" Background="White">
-                <Image Grid.Column="1" Source="Resources/Bam.jpg" />
+                <Image Grid.Column="1"/>
             </Button>
             <Button Grid.Column="2" Background="White">
-                <Image Grid.Column="2" Source="Resources/Веном.jpg"/>
+                <Image Grid.Column="2"/>
             </Button>
 
         </Grid>
@@ -89,91 +89,91 @@
             <Button x:Name="bt1" Grid.Column="0" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 1
             </Button>
-            <Button x:Name="bt2" Grid.Column="1" Grid.Row="1" MouseRightButtonDown="Bt2_MouseRightButtonDown" Click="Bt2_Click">
+            <Button x:Name="bt2" Grid.Column="1" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 2
             </Button>
-            <Button x:Name="bt3" Grid.Column="2" Grid.Row="1" MouseRightButtonDown="Bt3_MouseRightButtonDown" Click="Bt3_Click">
+            <Button x:Name="bt3" Grid.Column="2" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 3
             </Button>
-            <Button x:Name="bt4" Grid.Column="3" Grid.Row="1" MouseRightButtonDown="Bt4_MouseRightButtonDown" Click="Bt4_Click">
+            <Button x:Name="bt4" Grid.Column="3" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 4
             </Button>
-            <Button x:Name="bt5" Grid.Column="4" Grid.Row="1" MouseRightButtonDown="Bt5_MouseRightButtonDown" Click="Bt5_Click">
+            <Button x:Name="bt5" Grid.Column="4" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 5
             </Button>
-            <Button x:Name="bt6" Grid.Column="5" Grid.Row="1" MouseRightButtonDown="Bt6_MouseRightButtonDown" Click="Bt6_Click">
+            <Button x:Name="bt6" Grid.Column="5" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 6
             </Button>
-            <Button x:Name="bt7" Grid.Column="6" Grid.Row="1" MouseRightButtonDown="Bt7_MouseRightButtonDown" Click="Bt7_Click">
+            <Button x:Name="bt7" Grid.Column="6" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 7
             </Button>
-            <Button x:Name="bt8" Grid.Column="7" Grid.Row="1" MouseRightButtonDown="Bt8_MouseRightButtonDown" Click="Bt8_Click">
+            <Button x:Name="bt8" Grid.Column="7" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 8
             </Button>
-            <Button x:Name="bt9" Grid.Column="8" Grid.Row="1" MouseRightButtonDown="Bt9_MouseRightButtonDown" Click="Bt9_Click">
+            <Button x:Name="bt9" Grid.Column="8" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 9
             </Button>
-            <Button x:Name="bt10" Grid.Column="9" Grid.Row="1" MouseRightButtonDown="Bt10_MouseRightButtonDown" Click="Bt10_Click">
+            <Button x:Name="bt10" Grid.Column="9" Grid.Row="1" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 10
             </Button>
-            <Button x:Name="bt11" Grid.Column="1" Grid.Row="2" MouseRightButtonDown="Bt11_MouseRightButtonDown" Click="Bt11_Click">
+            <Button x:Name="bt11" Grid.Column="1" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 11
             </Button>
-            <Button x:Name="bt12" Grid.Column="2" Grid.Row="2" MouseRightButtonDown="Bt12_MouseRightButtonDown" Click="Bt12_Click">
+            <Button x:Name="bt12" Grid.Column="2" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 12
             </Button>
-            <Button x:Name="bt13" Grid.Column="3" Grid.Row="2" MouseRightButtonDown="Bt13_MouseRightButtonDown" Click="Bt13_Click">
+            <Button x:Name="bt13" Grid.Column="3" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 13
             </Button>
-            <Button x:Name="bt14" Grid.Column="4" Grid.Row="2" MouseRightButtonDown="Bt14_MouseRightButtonDown" Click="Bt14_Click">
+            <Button x:Name="bt14" Grid.Column="4" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 14
             </Button>
-            <Button x:Name="bt15" Grid.Column="5" Grid.Row="2" MouseRightButtonDown="Bt15_MouseRightButtonDown" Click="Bt15_Click">
+            <Button x:Name="bt15" Grid.Column="5" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 15
             </Button>
-            <Button x:Name="bt16" Grid.Column="6" Grid.Row="2" MouseRightButtonDown="Bt16_MouseRightButtonDown" Click="Bt16_Click">
+            <Button x:Name="bt16" Grid.Column="6" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 16
             </Button>
-            <Button x:Name="bt17" Grid.Column="7" Grid.Row="2" MouseRightButtonDown="Bt17_MouseRightButtonDown" Click="Bt17_Click">
+            <Button x:Name="bt17" Grid.Column="7" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 17
             </Button>
-            <Button x:Name="bt18" Grid.Column="8" Grid.Row="2" MouseRightButtonDown="Bt18_MouseRightButtonDown" Click="Bt18_Click">
+            <Button x:Name="bt18" Grid.Column="8" Grid.Row="2" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 18
             </Button>
-            <Button x:Name="bt19" Grid.Column="2" Grid.Row="3" MouseRightButtonDown="Bt19_MouseRightButtonDown" Click="Bt19_Click">
+            <Button x:Name="bt19" Grid.Column="2" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 19
             </Button>
-            <Button x:Name="bt20" Grid.Column="3" Grid.Row="3" MouseRightButtonDown="Bt20_MouseRightButtonDown" Click="Bt20_Click">
+            <Button x:Name="bt20" Grid.Column="3" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 20
             </Button>
-            <Button x:Name="bt21" Grid.Column="4" Grid.Row="3" MouseRightButtonDown="Bt21_MouseRightButtonDown" Click="Bt21_Click">
+            <Button x:Name="bt21" Grid.Column="4" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 21
             </Button>
-            <Button x:Name="bt22" Grid.Column="5" Grid.Row="3" MouseRightButtonDown="Bt22_MouseRightButtonDown" Click="Bt22_Click">
+            <Button x:Name="bt22" Grid.Column="5" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 22
             </Button>
-            <Button x:Name="bt23" Grid.Column="6" Grid.Row="3" MouseRightButtonDown="Bt23_MouseRightButtonDown" Click="Bt23_Click">
+            <Button x:Name="bt23" Grid.Column="6" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 23
             </Button>
-            <Button x:Name="bt24" Grid.Column="7" Grid.Row="3" MouseRightButtonDown="Bt24_MouseRightButtonDown" Click="Bt24_Click">
+            <Button x:Name="bt24" Grid.Column="7" Grid.Row="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 24
             </Button>
-            <Button x:Name="bt25" Grid.Row="4" Grid.Column="3" MouseRightButtonDown="Bt25_MouseRightButtonDown" Click="Bt25_Click">
+            <Button x:Name="bt25" Grid.Row="4" Grid.Column="3" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 25
             </Button>
-            <Button x:Name="bt26" Grid.Row="4" Grid.Column="4" MouseRightButtonDown="Bt26_MouseRightButtonDown" Click="Bt26_Click">
+            <Button x:Name="bt26" Grid.Row="4" Grid.Column="4" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 26
             </Button>
-            <Button x:Name="bt27" Grid.Row="4" Grid.Column="5" MouseRightButtonDown="Bt27_MouseRightButtonDown" Click="Bt27_Click">
+            <Button x:Name="bt27" Grid.Row="4" Grid.Column="5" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 27
             </Button>
-            <Button x:Name="bt28" Grid.Row="4" Grid.Column="6" MouseRightButtonDown="Bt28_MouseRightButtonDown" Click="Bt28_Click">
+            <Button x:Name="bt28" Grid.Row="4" Grid.Column="6" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 28
             </Button>
-            <Button x:Name="bt29" Grid.Row="5" Grid.Column="4" MouseRightButtonDown="Bt29_MouseRightButtonDown" Click="Bt29_Click">
+            <Button x:Name="bt29" Grid.Row="5" Grid.Column="4" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 29
             </Button>
-            <Button x:Name="bt30" Grid.Row="5" Grid.Column="5" MouseRightButtonDown="Bt30_MouseRightButtonDown" Click="Bt30_Click">
+            <Button x:Name="bt30" Grid.Row="5" Grid.Column="5" MouseRightButtonDown="Bt1_MouseRightButtonDown" Click="Bt1_Click">
                 30
             </Button>
         </Grid>
@@ -187,7 +187,7 @@
             </Grid.RowDefinitions>
             <Label x:Name="Lb1" Grid.Row="0">
             </Label>
-            <Button Grid.Row="2">
+            <Button Grid.Row="2" Click="Button_Click_1">
                 Buy
             </Button>
         </Grid>
@@ -199,10 +199,10 @@
                 <RowDefinition>
                 </RowDefinition>
             </Grid.RowDefinitions>
-            <Button Grid.Row="3" Grid.Column="0" Click="Button_Click_2">
+            <Button Grid.Row="3" Grid.Column="0" Click="Button_Click_2" x:Name="Close_button">
                 Close
             </Button>
-            <Button Grid.Row="1" Grid.Column="0">
+            <Button Grid.Row="1" Grid.Column="0" Click="Button_Click">
                 Print ticket
             </Button>
         </Grid>

@@ -46,353 +46,42 @@ namespace LastChance
         }
         private void Bt1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (bt1.Background != Brushes.LightGray && bt1.Background != Brushes.Red)
+            //var brush = new Button();
+            var temp = sender as Button;
+            if (temp.Background != Brushes.Red && temp.Background != Close_button.Background)
             {
-                bt1.Background = Brushes.LightGray;
+                temp.Background = Close_button.Background;
                 TotalValue -= OneTicketValue;
                 Lb1.Content = $"{TotalValue} $";
             }
         }
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
-            if (bt1.Background != Brushes.Green && bt1.Background != Brushes.Red)
+            //var brush = new Button();
+            var temp = sender as Button;
+            if (temp.Background != Brushes.Green && temp.Background != Brushes.Red && temp.Background == Close_button.Background)
             {
-                bt1.Background = Brushes.Green;
+                temp.Background = Brushes.Green;
                 TotalValue += OneTicketValue;
                 Lb1.Content = $"{TotalValue} $";
             }
         }
-
-        private void Bt30_Click(object sender, RoutedEventArgs e)
+        private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            bt30.Background = Brushes.Green;
-
-        }
-
-        private void Bt2_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt2_Click(object sender, RoutedEventArgs e)
-        {
-            bt2.Background = Brushes.Green;
-
-        }
-
-        private void Bt3_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt3_Click(object sender, RoutedEventArgs e)
-        {
-            bt3.Background = Brushes.Green;
-
-        }
-
-        private void Bt4_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt4_Click(object sender, RoutedEventArgs e)
-        {
-            bt4.Background = Brushes.Green;
-
-        }
-
-        private void Bt5_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt5_Click(object sender, RoutedEventArgs e)
-        {
-            bt5.Background = Brushes.Green;
-
-        }
-
-        private void Bt6_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt6_Click(object sender, RoutedEventArgs e)
-        {
-            bt6.Background = Brushes.Green;
-
-        }
-
-        private void Bt7_Click(object sender, RoutedEventArgs e)
-        {
-            bt7.Background = Brushes.Green;
-
-        }
-
-        private void Bt7_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt8_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt8_Click(object sender, RoutedEventArgs e)
-        {
-            bt8.Background = Brushes.Green;
-
-        }
-
-        private void Bt9_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt9_Click(object sender, RoutedEventArgs e)
-        {
-            bt9.Background = Brushes.Green;
-
-        }
-
-        private void Bt10_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt10_Click(object sender, RoutedEventArgs e)
-        {
-            bt10.Background = Brushes.Green;
-
-        }
-
-        private void Bt11_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt11_Click(object sender, RoutedEventArgs e)
-        {
-            bt11.Background = Brushes.Green;
-
-        }
-
-        private void Bt12_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt12_Click(object sender, RoutedEventArgs e)
-        {
-            bt12.Background = Brushes.Green;
-
-        }
-
-        private void Bt13_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt13_Click(object sender, RoutedEventArgs e)
-        {
-            bt13.Background = Brushes.Green;
-
-        }
-
-        private void Bt14_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt14_Click(object sender, RoutedEventArgs e)
-        {
-            bt14.Background = Brushes.Green;
-
-        }
-
-        private void Bt15_Click(object sender, RoutedEventArgs e)
-        {
-            bt15.Background = Brushes.Green;
-
-        }
-
-        private void Bt15_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt16_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt16_Click(object sender, RoutedEventArgs e)
-        {
-            bt16.Background = Brushes.Green;
-
-        }
-
-        private void Bt17_Click(object sender, RoutedEventArgs e)
-        {
-            bt17.Background = Brushes.Green;
-
-        }
-
-        private void Bt17_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt18_Click(object sender, RoutedEventArgs e)
-        {
-            bt18.Background = Brushes.Green;
-
-        }
-
-        private void Bt18_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt19_Click(object sender, RoutedEventArgs e)
-        {
-            bt19.Background = Brushes.Green;
-
-        }
-
-        private void Bt19_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt20_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt20_Click(object sender, RoutedEventArgs e)
-        {
-            bt20.Background = Brushes.Green;
-
-        }
-
-        private void Bt21_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt21_Click(object sender, RoutedEventArgs e)
-        {
-            bt21.Background = Brushes.Green;
-
-        }
-
-        private void Bt22_Click(object sender, RoutedEventArgs e)
-        {
-            bt22.Background = Brushes.Green;
-
-        }
-
-        private void Bt22_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt23_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt23_Click(object sender, RoutedEventArgs e)
-        {
-            bt23.Background = Brushes.Green;
-
-        }
-
-        private void Bt24_Click(object sender, RoutedEventArgs e)
-        {
-            bt24.Background = Brushes.Green;
-
-        }
-
-        private void Bt24_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt25_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt25_Click(object sender, RoutedEventArgs e)
-        {
-            bt25.Background = Brushes.Green;
-
-        }
-
-        private void Bt26_Click(object sender, RoutedEventArgs e)
-        {
-            bt26.Background = Brushes.Green;
-
-        }
-
-        private void Bt26_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt27_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt27_Click(object sender, RoutedEventArgs e)
-        {
-            bt27.Background = Brushes.Green;
-
-        }
-
-        private void Bt28_Click(object sender, RoutedEventArgs e)
-        {
-            bt28.Background = Brushes.Green;
-
-        }
-
-        private void Bt28_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt29_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void Bt29_Click(object sender, RoutedEventArgs e)
-        {
-            bt29.Background = Brushes.Green;
-
-        }
-
-        private void Bt30_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-
+            this.Close();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
         }
+
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            var x = 0;
+            Image_grid.Children[x] = 
+            Image_grid.Children[x + 1] = Image_grid.Children[x + 2];
 
-        }
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            this.Close();
         }
     }
 }
