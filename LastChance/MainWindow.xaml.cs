@@ -23,23 +23,26 @@ namespace LastChance
         public static Random rnd = new Random();
         protected int OneTicketValue = 5;
         protected int TotalValue = 0;
-        protected Button[] list_but = new Button[30];
+        protected Button[] list_buttons = new Button[30];
+        //protected Image[] List_image
+ 
         public MainWindow()
         { 
             InitializeComponent();
-            for (int i = 0; i < 30; i++)
-            {
-                Button temp = new Button();
-                list_but[i] = Buttons_grid.Children[i] as Button;
-            }
             Lb1.FontStyle = FontStyles.Italic;
             Lb1.FontSize = 20;
-            for (ushort j = 0; j < 6; j++)
+            for (ushort i = 0; i < 30; i++)
             {
-                int temp = rnd.Next(1, 30);
-                //list_but[temp].IsEnabled = false;
-                list_but[temp].Background = Brushes.Red;
+                Button temp = new Button();
+                list_buttons[i] = Buttons_grid.Children[i] as Button;
             }
+            for (ushort j = 0; j < 7; j++)
+            {
+                int temp = rnd.Next(0, 30);
+                //list_but[temp].IsEnabled = false;
+                list_buttons[temp].Background = Brushes.Red;
+            }
+
         }
         private void Bt1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
@@ -386,6 +389,10 @@ namespace LastChance
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
 
+        }
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }

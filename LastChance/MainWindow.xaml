@@ -191,6 +191,21 @@
                 Buy
             </Button>
         </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="6*"/>
+                <RowDefinition Height="2*">
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <Button Grid.Row="3" Grid.Column="0" Click="Button_Click_2">
+                Close
+            </Button>
+            <Button Grid.Row="1" Grid.Column="0">
+                Print ticket
+            </Button>
+        </Grid>
      </Grid>
 
 </Window>
