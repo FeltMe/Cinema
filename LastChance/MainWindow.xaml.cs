@@ -24,8 +24,7 @@ namespace LastChance
         protected int OneTicketValue = 5;
         protected int TotalValue = 0;
         protected Button[] list_buttons = new Button[30];
-        //protected Image[] List_image
- 
+        protected Image[] List_image = new Image[5];
         public MainWindow()
         { 
             InitializeComponent();
@@ -42,11 +41,9 @@ namespace LastChance
                 //list_but[temp].IsEnabled = false;
                 list_buttons[temp].Background = Brushes.Red;
             }
-
         }
         private void Bt1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            //var brush = new Button();
             var temp = sender as Button;
             if (temp.Background != Brushes.Red && temp.Background != Close_button.Background)
             {
@@ -57,7 +54,6 @@ namespace LastChance
         }
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
-            //var brush = new Button();
             var temp = sender as Button;
             if (temp.Background != Brushes.Green && temp.Background != Brushes.Red && temp.Background == Close_button.Background)
             {
@@ -73,15 +69,20 @@ namespace LastChance
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MoveLeft();
         }
-
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            var x = 0;
-            Image_grid.Children[x] = 
-            Image_grid.Children[x + 1] = Image_grid.Children[x + 2];
-
+            MoveRight();
         }
+        private void MoveLeft()
+        {
+           
+        }
+        private void MoveRight()
+        {
+        
+        }
+
     }
 }
