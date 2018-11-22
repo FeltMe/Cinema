@@ -20,22 +20,32 @@ namespace LastChance
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int OneTicketValue = 5;
-        public int TotalValue = 0;
+        protected int OneTicketValue = 5;
+        protected int TotalValue = 0;
         public MainWindow()
         {
             InitializeComponent();
+            Lb1.FontStyle = FontStyles.Italic;
+            Lb1.FontSize = 20;
+
         }
         private void Bt1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            bt1.Background = Brushes.LightGray;
-            TotalValue -= OneTicketValue;
-
+            if (bt1.Background != Brushes.LightGray)
+            {
+                bt1.Background = Brushes.LightGray;
+                TotalValue -= OneTicketValue;
+                Lb1.Content = $"{TotalValue} $";
+            }
         }
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
-            bt1.Background = Brushes.Green;
-            TotalValue += OneTicketValue;
+            if (bt1.Background != Brushes.Green)
+            {
+                bt1.Background = Brushes.Green;
+                TotalValue += OneTicketValue;
+                Lb1.Content = $"{TotalValue} $";
+            }
         }
 
         private void Bt30_Click(object sender, RoutedEventArgs e)
