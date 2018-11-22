@@ -20,18 +20,30 @@ namespace LastChance
     /// </summary>
     public partial class MainWindow : Window
     {
+        public static Random rnd = new Random();
         protected int OneTicketValue = 5;
         protected int TotalValue = 0;
+        protected Button[] list_but = new Button[30];
         public MainWindow()
-        {
+        { 
             InitializeComponent();
+            for (int i = 0; i < 30; i++)
+            {
+                Button temp = new Button();
+                list_but[i] = Buttons_grid.Children[i] as Button;
+            }
             Lb1.FontStyle = FontStyles.Italic;
             Lb1.FontSize = 20;
-
+            for (ushort j = 0; j < 6; j++)
+            {
+                int temp = rnd.Next(1, 30);
+                //list_but[temp].IsEnabled = false;
+                list_but[temp].Background = Brushes.Red;
+            }
         }
         private void Bt1_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            if (bt1.Background != Brushes.LightGray)
+            if (bt1.Background != Brushes.LightGray && bt1.Background != Brushes.Red)
             {
                 bt1.Background = Brushes.LightGray;
                 TotalValue -= OneTicketValue;
@@ -40,7 +52,7 @@ namespace LastChance
         }
         private void Bt1_Click(object sender, RoutedEventArgs e)
         {
-            if (bt1.Background != Brushes.Green)
+            if (bt1.Background != Brushes.Green && bt1.Background != Brushes.Red)
             {
                 bt1.Background = Brushes.Green;
                 TotalValue += OneTicketValue;

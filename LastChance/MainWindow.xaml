@@ -47,7 +47,7 @@
             </Button>
 
         </Grid>
-        <Grid Grid.Row="1" Grid.Column="1">
+        <Grid Grid.Row="1" Grid.Column="1" x:Name="Buttons_grid">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition>
                 </ColumnDefinition>
@@ -178,10 +178,19 @@
             </Button>
         </Grid>
         <Grid Grid.Column="2" Grid.Row="1">
-            <Label x:Name="Lb1">
-                
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="6*">
+                </RowDefinition>
+                <RowDefinition>
+                </RowDefinition>
+            </Grid.RowDefinitions>
+            <Label x:Name="Lb1" Grid.Row="0">
             </Label>
+            <Button Grid.Row="2">
+                Buy
+            </Button>
         </Grid>
-    </Grid>
+     </Grid>
 
 </Window>
